@@ -110,6 +110,8 @@ int main()
             c++;
             a[r1][c1] = 'X';
             print();
+            printf("\n");
+            printf("\n");
             logic1();
             if (x == 1)
                 break;
@@ -123,6 +125,7 @@ int main()
             c++;
             a[r2][c2] = 'O';
             print();
+            printf("\n");
             logic2();
             if ((x == 2))
                 break;
@@ -152,6 +155,7 @@ int main()
             } while ((a[r1][c1] == 'X') || (a[r1][c1] == 'O'));
             a[r1][c1] = 'X';
             print();
+            printf("\n");
             logic1();
             if (x == 1)
                 break;
@@ -164,6 +168,8 @@ int main()
             c++;
             a[r2][c2] = 'O';
             print();
+            printf("\n");
+            printf("\n");
             logic2();
             if ((x == 2))
                 break;

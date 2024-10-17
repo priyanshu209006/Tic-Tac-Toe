@@ -117,7 +117,7 @@ int main()
                 break;
             do
             {
-                printf("Enter Row and column %s = ", p1);
+                printf("Enter Row and column %s = ", p2);
                 scanf("%d", &r2);
                 scanf("%d", &c2);
                 m++;

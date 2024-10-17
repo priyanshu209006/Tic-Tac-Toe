@@ -96,7 +96,7 @@ int main()
     switch (choice)
     {
     case 1:
-        intro2();
+        intro1();
         while (1)
         {
 
